@@ -7,7 +7,7 @@ echo "Extract links.csv..."
 tar xvjf links.tar.bz2
 echo "Ready!"
 echo "sentences.csv processing"
-awk -f separator.awk sentencesp.csv > sentences_awk.csv
+awk -f separator.awk sentences.csv > sentences_awk.csv
 echo "Ready!"
 echo "Lowercase conversion..."
 ./lower.py sentences_awk.csv sentencesl.csv
