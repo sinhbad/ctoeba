@@ -7,7 +7,7 @@ CREATE INDEX li2 ON links(tid);
 --CREATE TABLE tags(id BIGINT, tag VARCHAR);
 --CREATE INDEX ti ON tags(id);
 .separator \t
-.import "sentences_sed.csv" sentences
+.import "sentences_awk.csv" sentences
 .import "sentencesl.csv" sentences_fts
 --.import "tags.csv" tags
 .import "links.csv" links
