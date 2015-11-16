@@ -23,3 +23,4 @@ echo "Enter ./tcv-no-color3 <level> <count> <lc1> <lc2> for showing [count] resu
 echo "For example:"
 echo "./tcv-no-color3 5 100 rus eng"
 echo "./tcv-no-color3 5 100 eng deu"
+echo "./tcv-no-color3 3 10 eng spa"
